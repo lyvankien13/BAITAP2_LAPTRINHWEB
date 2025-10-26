@@ -71,73 +71,73 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 # Bài làm: 
 2.1. Cài đặt Apache web server:
  - Vô hiệu hóa IIS để dùng Apache thay cho IIS:
-   <img width="1402" height="1014" alt="image" src="https://github.com/user-attachments/assets/c924bd16-177c-4b06-81e2-1f65fc08baff" />
+   <img width="1402" height="1014" alt="image" src="https://github.com/user-attachments/assets/c924bd16-177c-4b06-81e2-1f65fc08baff" /><br>
 - Download apache server qua link: https://www.apachelounge.com/download/ , giải nén ra ổ G:
-  <img width="1175" height="622" alt="image" src="https://github.com/user-attachments/assets/08950488-7451-43d4-b1a4-e9209741bc71" />
+  <img width="1175" height="622" alt="image" src="https://github.com/user-attachments/assets/08950488-7451-43d4-b1a4-e9209741bc71" /><br>
   + Cấu hình file G:\Apache24\conf\httpd.conf:
-    <img width="329" height="65" alt="image" src="https://github.com/user-attachments/assets/ae9488ee-4727-4f61-b790-d91192d7b54e" />
-    <img width="357" height="79" alt="image" src="https://github.com/user-attachments/assets/b2ef6e9a-c98e-4f41-8d33-a213d91c6177" />
-    <img width="549" height="36" alt="image" src="https://github.com/user-attachments/assets/23405392-29ff-43de-a0ed-e823e25ea450" />
-    <img width="411" height="105" alt="image" src="https://github.com/user-attachments/assets/311bad6b-1b1d-46b1-893d-79dfca2dbd90" />
-    <img width="727" height="195" alt="image" src="https://github.com/user-attachments/assets/99ec6d80-141e-4243-93a0-f762456142e0" />
-    <img width="550" height="116" alt="image" src="https://github.com/user-attachments/assets/dacb9fe9-edf8-4729-885c-0a2d10e9d75c" />
+    <img width="329" height="65" alt="image" src="https://github.com/user-attachments/assets/ae9488ee-4727-4f61-b790-d91192d7b54e" /><br>
+    <img width="357" height="79" alt="image" src="https://github.com/user-attachments/assets/b2ef6e9a-c98e-4f41-8d33-a213d91c6177" /><br>
+    <img width="549" height="36" alt="image" src="https://github.com/user-attachments/assets/23405392-29ff-43de-a0ed-e823e25ea450" /><br>
+    <img width="411" height="105" alt="image" src="https://github.com/user-attachments/assets/311bad6b-1b1d-46b1-893d-79dfca2dbd90" /><br>
+    <img width="727" height="195" alt="image" src="https://github.com/user-attachments/assets/99ec6d80-141e-4243-93a0-f762456142e0" /><br>
+    <img width="550" height="116" alt="image" src="https://github.com/user-attachments/assets/dacb9fe9-edf8-4729-885c-0a2d10e9d75c" /><br>
   + Cấu hình file D:Apache24\conf\extra\httpd-vhosts.confđể tạo website với domain: lyvankien.com:
-    <img width="969" height="565" alt="image" src="https://github.com/user-attachments/assets/84d0a22c-f9ed-4684-bcb3-a80c03efc62b" />
+    <img width="969" height="565" alt="image" src="https://github.com/user-attachments/assets/84d0a22c-f9ed-4684-bcb3-a80c03efc62b" /><br>
 
   + Code web đặt tại vị trí:
-    <img width="907" height="277" alt="image" src="https://github.com/user-attachments/assets/79bda5ea-0c7c-43b5-a845-b0173d83fe65" />
+    <img width="907" height="277" alt="image" src="https://github.com/user-attachments/assets/79bda5ea-0c7c-43b5-a845-b0173d83fe65" /><br>
   + sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain này:
-    <img width="1019" height="657" alt="image" src="https://github.com/user-attachments/assets/bf6fc6bf-5622-4232-831a-921cc21c2955" />
+    <img width="1019" height="657" alt="image" src="https://github.com/user-attachments/assets/bf6fc6bf-5622-4232-831a-921cc21c2955" /><br>
 
 - Cài Đặt và Khởi động web server Apache qua CMD trên D:\Apache24\bin\httpd.exe:
-    <img width="909" height="152" alt="image" src="https://github.com/user-attachments/assets/757ee342-f601-495c-b50b-6229497a8d56" />
+    <img width="909" height="152" alt="image" src="https://github.com/user-attachments/assets/757ee342-f601-495c-b50b-6229497a8d56" /><br>
 - Test domain trên trình duyệt:
-<img width="862" height="443" alt="image" src="https://github.com/user-attachments/assets/0f3e5a8f-85a5-4d23-9ddb-024a42cedbab" />
+<img width="862" height="443" alt="image" src="https://github.com/user-attachments/assets/0f3e5a8f-85a5-4d23-9ddb-024a42cedbab" /><br>
 
 2.2. Cài đặt nodejs và nodered => Dùng làm backend:
 
 - Cài đặt nodejs vào ổ G theo link: https://nodejs.org/dist/v20.19.5/node-v20.19.5-x64.msi
-<img width="1113" height="511" alt="image" src="https://github.com/user-attachments/assets/0c8b6437-9d74-4b38-bb51-abcd217cc0ac" />
+<img width="1113" height="511" alt="image" src="https://github.com/user-attachments/assets/0c8b6437-9d74-4b38-bb51-abcd217cc0ac" /><br>
 
 - Cài đặt node red bằng lênh cmd: npm install -g --unsafe-perm node-red --prefix "D:\nodejs\nodered"
-  <img width="946" height="461" alt="image" src="https://github.com/user-attachments/assets/c7925d47-5042-40cc-bc74-256359cd1bf7" />
+  <img width="946" height="461" alt="image" src="https://github.com/user-attachments/assets/c7925d47-5042-40cc-bc74-256359cd1bf7" /><br>
 
 - Dowload và giải nén file nssm.exe vào thư mục`G:\nodejs\nodered\`
-  <img width="961" height="517" alt="image" src="https://github.com/user-attachments/assets/9b4856ac-ce31-4ebf-a988-4afbb46411b0" />
+  <img width="961" height="517" alt="image" src="https://github.com/user-attachments/assets/9b4856ac-ce31-4ebf-a988-4afbb46411b0" /><br>
 - Tạo file "D:\nodejs\nodered\run-nodered.cmd" và thêm nội dung:
-  <img width="1092" height="389" alt="image" src="https://github.com/user-attachments/assets/a4e99ca0-5972-401e-a28e-ee55d4e74c43" />
+  <img width="1092" height="389" alt="image" src="https://github.com/user-attachments/assets/a4e99ca0-5972-401e-a28e-ee55d4e74c43" /><br>
 
 
 - Cài đặt service a1-nodered:
-  <img width="835" height="127" alt="image" src="https://github.com/user-attachments/assets/3241136e-d4b1-463c-9070-66f166c14021" />
+  <img width="835" height="127" alt="image" src="https://github.com/user-attachments/assets/3241136e-d4b1-463c-9070-66f166c14021" /><br>
 
 - Chạy service:
-  <img width="618" height="108" alt="image" src="https://github.com/user-attachments/assets/f9921879-d17a-42d3-bb8f-d3b927a6622f" />
+  <img width="618" height="108" alt="image" src="https://github.com/user-attachments/assets/f9921879-d17a-42d3-bb8f-d3b927a6622f" /><br>
 
 2.3. Tạo csdl: Quản lí thành viên trong gia đình
-<img width="369" height="267" alt="image" src="https://github.com/user-attachments/assets/c80c242e-94f9-451e-a901-cfb26953682d" />
+<img width="369" height="267" alt="image" src="https://github.com/user-attachments/assets/c80c242e-94f9-451e-a901-cfb26953682d" /><br>
 
 
 2.4. Cài đặt thư viện trên nodered:
 - Truy cập: http://localhost:1880
 - Sau khi vào được gia diện nodered, tải các thư viện theo các bước:
-  <img width="627" height="513" alt="image" src="https://github.com/user-attachments/assets/706eb34e-ecce-452f-b2ab-ddf42f01634c" />
+  <img width="627" height="513" alt="image" src="https://github.com/user-attachments/assets/706eb34e-ecce-452f-b2ab-ddf42f01634c" /><br>
   + Install các thư viện:
-    <img width="663" height="839" alt="image" src="https://github.com/user-attachments/assets/696e9a4e-7ba1-4cb2-a0d7-b7b241dbb787" />
+    <img width="663" height="839" alt="image" src="https://github.com/user-attachments/assets/696e9a4e-7ba1-4cb2-a0d7-b7b241dbb787" /><br>
 - Sửa file `D:\nodejs\nodered\work\settings.js` để truy cập nodered cần đăng nhập và đăng nhập với giao diện admin:
-  <img width="1113" height="729" alt="image" src="https://github.com/user-attachments/assets/ef8aa88d-fe4b-4d8d-961c-c2548f692a5d" />
-  <img width="1004" height="220" alt="image" src="https://github.com/user-attachments/assets/52bb1885-e857-49f3-b459-8f53f65aebda" />
+  <img width="1113" height="729" alt="image" src="https://github.com/user-attachments/assets/ef8aa88d-fe4b-4d8d-961c-c2548f692a5d" /><br>
+  <img width="1004" height="220" alt="image" src="https://github.com/user-attachments/assets/52bb1885-e857-49f3-b459-8f53f65aebda" /><br>
 
 - Chạy lại nodered bằng lệnh cmd và truy cập lại url nodered nhập tài khoản và mật khẩu
-  <img width="603" height="132" alt="image" src="https://github.com/user-attachments/assets/86858a58-a38d-4394-8151-1c28dcbf1596" />
-<img width="1644" height="873" alt="image" src="https://github.com/user-attachments/assets/22fc6b77-758e-4c3a-9425-f8952bb453ce" />
+  <img width="603" height="132" alt="image" src="https://github.com/user-attachments/assets/86858a58-a38d-4394-8151-1c28dcbf1596" /><br>
+<img width="1644" height="873" alt="image" src="https://github.com/user-attachments/assets/22fc6b77-758e-4c3a-9425-f8952bb453ce" /><br>
 
 
 2.5. Tạo giao diện Frontend:
-<img width="1615" height="762" alt="image" src="https://github.com/user-attachments/assets/1af58fc1-9161-44fa-b651-506a45d59061" />
+<img width="1615" height="762" alt="image" src="https://github.com/user-attachments/assets/1af58fc1-9161-44fa-b651-506a45d59061" /><br>
 
 2.6. tạo api back-end bằng nodered:
-<img width="962" height="509" alt="image" src="https://github.com/user-attachments/assets/e69754f2-ac97-4fb5-9171-2e8c49881cd1" />
+<img width="962" height="509" alt="image" src="https://github.com/user-attachments/assets/e69754f2-ac97-4fb5-9171-2e8c49881cd1" /><br>
 
 2.7. Nhận xét bài làm của mình:
 - Đâ hiểu các bước cài đặt và sử dụng Apache và Node red qua Nodejs
